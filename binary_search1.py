@@ -2,9 +2,6 @@
 def binary_search(list,l,r,n):
     try:
         mid=int(l+(r-l)/2)
-        print(mid)
-        print(list[l:mid])
-        print(list[mid:r])
         if n == list[mid]:
             print("Index of element ", n ," is ",mid)
         elif n < list[mid]:
